@@ -3,14 +3,25 @@
  
 }
 img {
-   
+   margin-left: 200px;
    padding-left: 12px 18px;
    float: left;
 }
 header {
-   
-
-
+   display: inline;
+}
+.burgerh {
+   display: inline;
+   font-family: poppins;
+   font size: 80px;
+   margin-top: 30px 30px;
+}
+.burgerpalace {
+   display: inline;
+   margin-top: 30px 30px;
+}
+.trolley {
+   height: 150px;
 }
 h1{
    font-style: poppins;
@@ -19,11 +30,11 @@ h1{
    
 }
 .bug {
-   height: 60vh;
-   width: fit-content;
+   height: 50vh;
+   width: 700px;
    margin-top: 100px;
    background-color: yellow;
-   margin-right: 15px;
+   margin-right: 450px;
    
 }
 a {
@@ -39,12 +50,12 @@ a.hm {
 h2 {
    color: black;
    font-weight: bold;
-   font-size: 70px;
-   margin-left: 3.5ch;
+   font-size: 80px;
+   margin-left: 15ch;
    margin-top: 8ch;
 }
 p{
-   margin-left: 6ch;
+   margin-left: 35ch;
    font-size: 35px
 }
 button {
@@ -54,20 +65,19 @@ button {
    border-radius: 20px;
    padding: 25px 35px;
    font-size: 25px;
-   margin-left: 70px;
-   margin-top: 200px;
-}
-div {
-   margin-left: 800px;
-   margin-bottom:80px;
-   
-   float:right;
+   margin-left: 80px;
+   margin-top: 150px;
 }
 h3 {
    text-align: center;
    font-size: 70px;
-   margin-top: 15ch;
-   margin-left: 940px;
+   margin-top: 10ch;
+   margin-left: 700px;
+}
+div {
+   margin-left: 800px;
+   margin-bottom:80px;
+   float:right;
 }
 .boxed {
    display: flex;
@@ -79,7 +89,7 @@ h3 {
 }
 .burger1 {
    text-align:center;
-   border-radius: 50px;
+   border-radius: 25px;
    padding: 10px;
    margin: 18px;
    border: 3px solid black;
@@ -95,8 +105,39 @@ h3 {
    float: right;
    background-color: #E1EBE6;
 }
-
-
+.burger2 {
+   border:3px solid black;
+   padding:10px;
+   margin:20px;
+   float:left;
+   width:25%;
+   flex:row;
+   text-align:center;
+   border-radius: 25px;
+   
+   }
+   .burger3 {
+   border:3px solid black;
+   padding:10px;
+   margin:20px;
+   float:left;
+   width:25%;
+   flex:row;
+   text-align:center;
+   border-radius: 25px;
+   
+   }
+   .burger5 {
+      border:3px solid black;
+      padding:10px;
+      margin:20px;
+      float:left;
+      width:25%;
+      flex:row;
+      text-align:center;
+      border-radius: 25px;
+   }
+  
 
 
 
