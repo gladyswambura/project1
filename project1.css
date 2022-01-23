@@ -3,18 +3,20 @@
  
 }
 container{
-   margin-top: 50px;
-   
+   margin-top: 80px;
    margin:auto;
    font-family:"poppins";
 }
 .burgerplace {
    display: inline;
-   margin-bottom:80px;
+   margin-top:80px;
+   height: 80px;
    padding:40px;
 }
 .burgerh {
    display: inline;
+   float: left;
+   margin-top: 80px;
 }
 .cart {
    display: inline;
@@ -22,6 +24,7 @@ container{
 ul li{
    display: inline-block;
    padding: 30px;
+   margin-left: 50px;
 }
 h1 {
    
@@ -41,6 +44,9 @@ h1 {
 .heading{
    display:flex;
    padding:10px;
+   margin-left: 50px;
+   margin-top: 50px;
+
    float:left;
 }
 .button {
@@ -48,10 +54,206 @@ h1 {
        border: none;
        color: white;
        padding: 10px;
+       margin-top: 80px;
+
        text-align: center;
        text-decoration: none;
        display: inline-block;
        font-size: 16px;
        margin: 4px 2px;
        cursor: pointer;
+}
+      .button4 {border-radius: 5px;}
+      .heading{
+         margin-top:80px;
+         
+     }
+#bug{
+    float:right;
+    margin-top:10px;
+    margin-right:20px;
+    
+ 
+}
+.Tocustomers {
+    display:flex;
+    float:left;
+    background-color:rgb(239, 253, 255);
+    height:100%;
+    
+}
+.quality {
+    border:1.5px solid rgb(114, 69, 69);
+    padding:10px;
+    margin:20px;
+    float:left;
+    width:30%;
+    flex:row;
+    text-align:center;
+    border-radius: 25px;
+   
+}
+
+
+.fastdelivery{
+    border:1.5px solid rgb(114, 69, 69);
+    padding:10px;
+    margin:20px;
+    float:left;
+    width:40%;
+    height:40%;
+    flex:row;
+    text-align:center;
+    border-radius: 25px;
+    
+    
+}
+
+.deliciousmeals{
+    border:1.5px solid rgb(114, 69, 69);
+    padding:10px;
+    margin:20px;
+    float:left;
+    width:30%;
+    flex:row;
+    text-align:center;
+    border-radius: 25px;
+}
+
+.menu{
+    display:inline-block;
+    flex-wrap:wrap;
+    
+}
+
+.burger1{
+border:3px solid black;
+padding:10px;
+margin :20px;
+float:left;
+width:25%;
+flex:row;
+text-align:center;
+border-radius: 25px;
+
+}
+
+.burger2{
+border:3px solid black;
+padding:10px;
+margin:20px;
+float:left;
+width:25%;
+flex:row;
+text-align:center;
+border-radius: 25px;
+
+}
+
+.burger3{
+border:3px solid black;
+padding:10px;
+margin:20px;
+float:left;
+width:25%;
+flex:row;
+text-align:center;
+border-radius: 25px;
+
+}
+
+.amount{
+ display:flex;
+
+}
+
+.cart{
+ float:right;
+ border:1 px solid rgb(239, 253, 255);
+ background-color: white;
+ 
+ text-align: right;
+}
+
+.burger4{
+    border:3px solid black;
+    padding:10px;
+    margin:20px;
+    float:left;
+    width:25%;
+    flex:row;
+    text-align:center;
+    border-radius: 25px;
+ }
+
+ .burger5{
+    border:3px solid black;
+    padding:10px;
+    margin:20px;
+    float:left;
+    width:25%;
+    flex:row;
+    text-align:center;
+    border-radius: 25px;
+ }
+
+ .burger6{
+    border:3px solid black;
+    padding:10px;
+    margin:20px;
+    float:left;
+    width:25%;
+    flex:row;
+    text-align:center;
+    border-radius: 25px;
+ }
+
+ .doubledecker{
+    display:flex;
+    background-color:white;
+    padding:100px;
+}
+
+span {
+    color:#F6B400;
+}
+
+br{
+ color:rgb(255, 196, 0);
+}
+
+.decker{
+  float:right;
+  height:500px;
+}
+
+.onlinesale{
+  display:flex;
+  padding:100px;
+  background-color:#F6B400;
+}
+
+.google{
+    padding:50px;
+    margin-left: 20px;
+}
+.lastone{
+   display:flex;
+   background-color:white;
+}
+
+.begin{
+    display:flex;
+    font-family:"helvetica";
+    margin: 0%;
+}
+.googlemap {
+   align-content: center;
+}
+body{
+    background-color: white;
+}
+.f{
+    display: inline-block;
+    text-align: right;
 }
