@@ -2,149 +2,55 @@
    box-sizing: border-box;
  
 }
-img {
-   margin-left: 200px;
-   padding-left: 12px 18px;
-   float: left;
+container{
+   max-width:1000px;
+   margin:auto;
+   font-family:"poppins";
 }
-header {
-   display: inline;
+ul li{
+   display: inline-block;
+   padding: 30px;
 }
-.burgerh {
-   display: inline;
-   font-family: poppins;
-   font size: 80px;
-   margin-top: 30px 30px;
-}
-.burgerpalace {
-   display: inline;
-   margin-top: 30px 30px;
-}
-.trolley {
-   height: 150px;
-}
-h1{
-   font-style: poppins;
-   font-size: 65px;
-   margin-top: 30px 30px;
+.menubar{
    
-}
-.bug {
-   height: 50vh;
-   width: 700px;
-   margin-top: 100px;
-   background-color: yellow;
-   margin-right: 450px;
-   
-}
-a {
-   float: right;
-   padding: 12px 18px;
-   color: black;
-   text-decoration: none;
-}
-a.hm {
-   border-bottom: 8px solid orangered;border-width: 10px;
-   
-}
-h2 {
-   color: black;
-   font-weight: bold;
-   font-size: 80px;
-   margin-left: 15ch;
-   margin-top: 8ch;
-}
-p{
-   margin-left: 35ch;
-   font-size: 35px
-}
-button {
-   color: white;
-   background-color: #ff8c00;
-   border: none;
-   border-radius: 20px;
-   padding: 25px 35px;
-   font-size: 25px;
-   margin-left: 80px;
-   margin-top: 150px;
-}
-h3 {
-   text-align: center;
-   font-size: 70px;
-   margin-top: 10ch;
-   margin-left: 100px;
-}
-div {
-   margin-left: 800px;
-   margin-bottom:80px;
    float:right;
+   text-decoration:none;
+   display:flex;
+   font-size:x-large;
+   color:black;
+   padding:40px;
+   margin-right:20px;
+   justify-content:space-between;
 }
-.boxed {
-   display: flex;
-   flex-wrap: wrap;
-   flex-direction: row;
-}
-.boxed>* {
-   flex: 1 1 1 80px;
-}
-.burger1 {
-   border-radius: 10px;
-   padding: 5px;
-   margin: 10px;
-   border: 1px solid black;
-   width: 900px;
-   height: 900px;
-   flex: row;
-   float: left;
-}
-.cash {
-   display: flex;
-}
-.trolley {
-   height: 50;
-   float: right;
-   background-color: #E1EBE6;
-}
-.burger2 {
-   border:3px solid black;
-   padding:10px;
-   margin:20px;
-   float:left;
-   width:900px;
-   height:900px;
-   flex:row;
-   text-align:center;
-   border-radius: 25px;
-   
-   }
-   .burger3 {
-   border:3px solid black;
-   padding:10px;
-   margin:20px;
-   float:left;
-   width:900px;
-   height:900px;
-   flex:row;
-   text-align:center;
-   border-radius: 25px;
-   
-   }
-   .burger5 {
-      border:3px solid black;
-      padding:10px;
-      margin:20px;
-      float:left;
-      width:900px;
-      height:900px;
-      flex:row;
-      text-align:center;
-      border-radius: 25px;
-   }
-h4 {
-   text-align: left;
-   font-size: 70px;
-}
-h5 {
-   background-color: #F6B400;
 
+.home{
+   margin-right: 20px;
+   padding:20px;
 }
+
+.logo{
+   margin-bottom:80px;
+   padding:40px;
+}
+
+.heading{
+   display:flex;
+   padding:10px;
+   float:left;
+}
+.button {
+       background-color: rgb(243, 168, 29);
+       border: none;
+       color: white;
+       padding: 10px;
+       text-align: center;
+       text-decoration: none;
+       display: inline-block;
+       font-size: 16px;
+       margin: 4px 2px;
+       cursor: pointer;
+     }
+
+
+
+
