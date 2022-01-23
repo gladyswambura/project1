@@ -2,258 +2,158 @@
    box-sizing: border-box;
  
 }
-container{
-   margin-top: 80px;
-   margin:auto;
-   font-family:"poppins";
+img {
+   margin-left: 200px;
+   padding-left: 12px 18px;
+   float: left;
 }
-.burgerplace {
+header {
    display: inline;
-   margin-top:80px;
-   height: 80px;
-   padding:40px;
 }
 .burgerh {
    display: inline;
-   float: left;
-   margin-top: 80px;
+   font-family: poppins;
+   font size: 80px;
+   margin-top: 30px 30px;
 }
-.cart {
+.burgerpalace {
    display: inline;
+   margin-top: 30px 30px;
 }
-ul li{
-   display: inline-block;
-   padding: 30px;
-   margin-left: 50px;
+.trolley {
+   height: 150px;
 }
-h1 {
+h1{
+   font-style: poppins;
+   font-size: 65px;
+   margin-top: 30px 30px;
    
+}
+.bug {
+   height: 50vh;
+   width: 700px;
+   margin-top: 100px;
+   background-color: yellow;
+   margin-right: 450px;
+   
+}
+a {
+   float: right;
+   padding: 12px 18px;
+   color: black;
+   text-decoration: none;
+}
+a.hm {
+   border-bottom: 8px solid orangered;border-width: 10px;
+   
+}
+h2 {
+   color: black;
+   font-weight: bold;
+   font-size: 80px;
+   margin-left: 15ch;
+   margin-top: 8ch;
+}
+p{
+   margin-left: 35ch;
+   font-size: 35px
+}
+button {
+   color: white;
+   background-color: #ff8c00;
+   border: none;
+   border-radius: 20px;
+   padding: 25px 35px;
+   font-size: 25px;
+   margin-left: 80px;
+   margin-top: 150px;
+}
+h3 {
+   text-align: center;
+   font-size: 70px;
+   margin-top: 10ch;
+   margin-left: 700px;
+}
+div {
+   margin-left: 800px;
+   margin-bottom:80px;
    float:right;
-   text-decoration:none;
-   display:flex;
-   font-size:x-large;
-   color:black;
-   padding:40px;
-   margin-right:20px;
-   justify-content:space-between;
 }
-.home{
-   margin-right: 20px;
-   padding:20px;
+.boxed {
+   display: flex;
+   flex-wrap: wrap;
+   flex-direction: row;
 }
-.heading{
-   display:flex;
+.boxed>* {
+   flex: 1 1 1 80px;
+}
+.burger1 {
+   text-align:center;
+   border-radius: 25px;
+   padding: 10px;
+   margin: 18px;
+   border: 3px solid black;
+   width: 1000px;
+   flex: row;
+   float: left;
+}
+.cash {
+   display: flex;
+}
+.trolley {
+   height: 50;
+   float: right;
+   background-color: #E1EBE6;
+}
+.burger2 {
+   border:3px solid black;
    padding:10px;
-   margin-left: 50px;
-   margin-top: 50px;
-
+   margin:20px;
    float:left;
-}
-.button {
-       background-color: rgb(243, 168, 29);
-       border: none;
-       color: white;
-       padding: 10px;
-       margin-top: 80px;
-
-       text-align: center;
-       text-decoration: none;
-       display: inline-block;
-       font-size: 16px;
-       margin: 4px 2px;
-       cursor: pointer;
-}
-      .button4 {border-radius: 5px;}
-      .heading{
-         margin-top:80px;
-         
-     }
-#bug{
-    float:right;
-    margin-top:10px;
-    margin-right:20px;
-    
- 
-}
-.Tocustomers {
-    display:flex;
-    float:left;
-    background-color:rgb(239, 253, 255);
-    height:100%;
-    
-}
-.quality {
-    border:1.5px solid rgb(114, 69, 69);
-    padding:10px;
-    margin:20px;
-    float:left;
-    width:30%;
-    flex:row;
-    text-align:center;
-    border-radius: 25px;
+   width:25%;
+   flex:row;
+   text-align:center;
+   border-radius: 25px;
    
+   }
+   .burger3 {
+   border:3px solid black;
+   padding:10px;
+   margin:20px;
+   float:left;
+   width:25%;
+   flex:row;
+   text-align:center;
+   border-radius: 25px;
+   
+   }
+   .burger5 {
+      border:3px solid black;
+      padding:10px;
+      margin:20px;
+      float:left;
+      width:25%;
+      flex:row;
+      text-align:center;
+      border-radius: 25px;
+   }
+  
+
+
+
+
+
+
+
+
+
+
+
+h4 {
+   text-align: left;
+   font-size: 70px;
 }
+h5 {
+   background-color: #F6B400;
 
-
-.fastdelivery{
-    border:1.5px solid rgb(114, 69, 69);
-    padding:10px;
-    margin:20px;
-    float:left;
-    width:40%;
-    height:40%;
-    flex:row;
-    text-align:center;
-    border-radius: 25px;
-    
-    
-}
-
-.deliciousmeals{
-    border:1.5px solid rgb(114, 69, 69);
-    padding:10px;
-    margin:20px;
-    float:left;
-    width:30%;
-    flex:row;
-    text-align:center;
-    border-radius: 25px;
-}
-
-.menu{
-    display:inline-block;
-    flex-wrap:wrap;
-    
-}
-
-.burger1{
-border:3px solid black;
-padding:10px;
-margin :20px;
-float:left;
-width:25%;
-flex:row;
-text-align:center;
-border-radius: 25px;
-
-}
-
-.burger2{
-border:3px solid black;
-padding:10px;
-margin:20px;
-float:left;
-width:25%;
-flex:row;
-text-align:center;
-border-radius: 25px;
-
-}
-
-.burger3{
-border:3px solid black;
-padding:10px;
-margin:20px;
-float:left;
-width:25%;
-flex:row;
-text-align:center;
-border-radius: 25px;
-
-}
-
-.amount{
- display:flex;
-
-}
-
-.cart{
- float:right;
- border:1 px solid rgb(239, 253, 255);
- background-color: white;
- 
- text-align: right;
-}
-
-.burger4{
-    border:3px solid black;
-    padding:10px;
-    margin:20px;
-    float:left;
-    width:25%;
-    flex:row;
-    text-align:center;
-    border-radius: 25px;
- }
-
- .burger5{
-    border:3px solid black;
-    padding:10px;
-    margin:20px;
-    float:left;
-    width:25%;
-    flex:row;
-    text-align:center;
-    border-radius: 25px;
- }
-
- .burger6{
-    border:3px solid black;
-    padding:10px;
-    margin:20px;
-    float:left;
-    width:25%;
-    flex:row;
-    text-align:center;
-    border-radius: 25px;
- }
-
- .doubledecker{
-    display:flex;
-    background-color:white;
-    padding:100px;
-}
-
-span {
-    color:#F6B400;
-}
-
-br{
- color:rgb(255, 196, 0);
-}
-
-.decker{
-  float:right;
-  height:500px;
-}
-
-.onlinesale{
-  display:flex;
-  padding:100px;
-  background-color:#F6B400;
-}
-
-.google{
-    padding:50px;
-    margin-left: 20px;
-}
-.lastone{
-   display:flex;
-   background-color:white;
-}
-
-.begin{
-    display:flex;
-    font-family:"helvetica";
-    margin: 0%;
-}
-.googlemap {
-   align-content: center;
-}
-body{
-    background-color: white;
-}
-.f{
-    display: inline-block;
-    text-align: right;
 }
