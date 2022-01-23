@@ -72,7 +72,7 @@ h3 {
    text-align: center;
    font-size: 70px;
    margin-top: 10ch;
-   margin-left: 700px;
+   margin-left: 100px;
 }
 div {
    margin-left: 800px;
@@ -88,12 +88,12 @@ div {
    flex: 1 1 1 80px;
 }
 .burger1 {
-   text-align:center;
-   border-radius: 25px;
-   padding: 10px;
-   margin: 18px;
-   border: 3px solid black;
-   width: 1000px;
+   border-radius: 10px;
+   padding: 5px;
+   margin: 10px;
+   border: 1px solid black;
+   width: 900px;
+   height: 900px;
    flex: row;
    float: left;
 }
@@ -110,7 +110,8 @@ div {
    padding:10px;
    margin:20px;
    float:left;
-   width:25%;
+   width:900px;
+   height:900px;
    flex:row;
    text-align:center;
    border-radius: 25px;
@@ -121,7 +122,8 @@ div {
    padding:10px;
    margin:20px;
    float:left;
-   width:25%;
+   width:900px;
+   height:900px;
    flex:row;
    text-align:center;
    border-radius: 25px;
@@ -132,23 +134,12 @@ div {
       padding:10px;
       margin:20px;
       float:left;
-      width:25%;
+      width:900px;
+      height:900px;
       flex:row;
       text-align:center;
       border-radius: 25px;
    }
-  
-
-
-
-
-
-
-
-
-
-
-
 h4 {
    text-align: left;
    font-size: 70px;
