@@ -13,6 +13,10 @@ h1{
    margin-top: 15px 15px;
    
 }
+.bug {
+   height: 100vh;
+   margin-top: 0 20px;
+}
 a {
    float: right;
    padding: 12px 18px;
@@ -60,7 +64,7 @@ h3 {
    flex-direction: row;
 }
 .boxed>* {
-   flex: 1 1 1 160px;
+   flex: 1 1 1 80px;
 }
 h4 {
    text-align: left;
