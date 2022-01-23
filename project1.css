@@ -3,15 +3,27 @@
  
 }
 container{
-   max-width:1000px;
+   margin-top: 50px;
+   
    margin:auto;
    font-family:"poppins";
+}
+.burgerplace {
+   display: inline;
+   margin-bottom:80px;
+   padding:40px;
+}
+.burgerh {
+   display: inline;
+}
+.cart {
+   display: inline;
 }
 ul li{
    display: inline-block;
    padding: 30px;
 }
-.menubar{
+h1 {
    
    float:right;
    text-decoration:none;
@@ -22,17 +34,10 @@ ul li{
    margin-right:20px;
    justify-content:space-between;
 }
-
 .home{
    margin-right: 20px;
    padding:20px;
 }
-
-.logo{
-   margin-bottom:80px;
-   padding:40px;
-}
-
 .heading{
    display:flex;
    padding:10px;
@@ -49,8 +54,4 @@ ul li{
        font-size: 16px;
        margin: 4px 2px;
        cursor: pointer;
-     }
-
-
-
-
+}
